@@ -1,2 +1,4 @@
-insert into USER values (100, 'saifur', 'all');
-insert into USER values (101, 'rob', 'all');
+insert into USER (ID,USERNAME, PASSWORD, ROLE, IS_ACCOUNT_EXPIRED, IS_ACCOUNT_LOCKED, IS_CREDENTIALS_EXPIRED,IS_USER_ENABLED)
+values (100,'saifur', 'password1234', 'all', FALSE, FALSE, FALSE, FALSE);
+insert into USER (ID, USERNAME, PASSWORD, ROLE, IS_ACCOUNT_EXPIRED, IS_ACCOUNT_LOCKED, IS_CREDENTIALS_EXPIRED,IS_USER_ENABLED)
+values (101, 'rob', 'password2345', 'all', FALSE, FALSE, FALSE, FALSE);

@@ -1,4 +1,4 @@
-package com.batul.oauth;
+package com.batul.auth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class OauthApplicationTests {
+public class JdbcAuthApplicationTests {
 
 	@Test
 	public void contextLoads() {
