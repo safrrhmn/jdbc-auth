@@ -1,4 +1,4 @@
-# JDBC AUTH Example with Spring boot and Basic Auth
+# JDBC Auth Example with Spring boot and Basic Auth
 A Spring Boot Project with Basic Auth Example
 
 ## TODO
