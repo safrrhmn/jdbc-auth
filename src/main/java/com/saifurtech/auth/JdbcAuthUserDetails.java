@@ -1,6 +1,6 @@
-package com.batul.auth;
+package com.saifurtech.auth;
 
-import com.batul.domain.entity.UserEntity;
+import com.saifurtech.domain.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

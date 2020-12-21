@@ -1,6 +1,6 @@
-package com.batul;
+package com.saifurtech;
 
-import com.batul.auth.JdbcAuthUserDetailService;
+import com.saifurtech.auth.JdbcAuthUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan(basePackages = {"com.batul"})
+@ComponentScan(basePackages = {"com.saifurtech"})
 public class JdbcAuthSecurityConfigurer extends WebSecurityConfigurerAdapter {
 
     @Autowired

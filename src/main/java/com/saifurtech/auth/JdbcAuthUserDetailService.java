@@ -1,7 +1,7 @@
-package com.batul.auth;
+package com.saifurtech.auth;
 
-import com.batul.domain.entity.UserEntity;
-import com.batul.domain.repository.UserRepository;
+import com.saifurtech.domain.entity.UserEntity;
+import com.saifurtech.domain.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

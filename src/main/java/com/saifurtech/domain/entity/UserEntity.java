@@ -1,4 +1,4 @@
-package com.batul.domain.entity;
+package com.saifurtech.domain.entity;
 
 import javax.persistence.*;
 

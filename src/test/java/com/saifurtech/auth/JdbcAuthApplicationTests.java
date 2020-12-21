@@ -1,4 +1,4 @@
-package com.batul.auth;
+package com.saifurtech.auth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
